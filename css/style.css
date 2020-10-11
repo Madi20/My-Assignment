@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif; 
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	display: block;
+}
+p{
+	margin: 30px 10px 10px 10px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #ffb3da;
+  border: 2px solid #e60073;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid  #e60073;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #ffffff;
+}
+
+.nav-brand {
+	margin: auto 0px;
+    color: #e60073;
+    font-size: 1.5em;
+}
+
+#nav-list {
+  color: #ffffff;
+}
+p.item{
+	color:#E60073;
+}
+li{
+	border: 1px solid #e60073;
+}
+li:hover,p.item:hover,:focus{
+	color:#ffffff;
+	background-color: #e60073;
+}
+.text-center{
+	color:  #e60073;
+	font-size: 4em;
+
+}
+p>a{
+	color:   #e60073;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.box {
+    padding: 10px;
+}
+.content {
+    border: 2px solid #e60073;
+    background-color: #ffb3da;
+    height: auto;
+}
+
+.title {
+    width: 30%;
+    text-align: center;
+    border: 2px solid #003d66;
+    float: right;
+    font-size: 18px;
+}
+#title1 {
+    background-color:#0099ff;
+    color: #ffffff;
+}
+
+#title2 {
+    background-color:#0099ff;
+    color: #ffffff;
+}
+
+#title3 {
+    background-color: #0099ff;
+    color: #ffffff;
+}
+#box{
+	background-color: #ff66b3;
+	border: 1px solid #e60073;
+	width: 300px;
+	height:auto;
+}
+
+*{
+	box-sizing: border-box;
+}
+div{
+	display: block;
+}
+@media screen and (min-width: 992px) {
+    .box {
+        float: left;
+        width: 33.333%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .box{
+        float: left;
+    }
+
+    #box1, #box2 {
+        width: 50%;
+    }
+
+    #box3 {
+        width: 100%;
+    }
+
+    #title1, #title2 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box {
+        padding: 10px 20px;
+    }
+}
